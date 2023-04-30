@@ -1,0 +1,3 @@
+# use this command to generate proto gen types
+
+python -m grpc_tools.protoc --proto_path=proto --python_out=. --pyi_out=. --grpc_python_out=. proto/authentication.proto
